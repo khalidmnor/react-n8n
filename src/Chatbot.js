@@ -10,7 +10,7 @@ const predefinedButtons = [
 ];
 
 // Replace with your n8n webhook URL
-const N8N_WEBHOOK_URL = 'https://a7c5-2001-d08-2295-4516-38f6-6b18-1829-7073.ngrok-free.app/webhook/d6ede216-4344-48f9-9891-13905e450710';
+const N8N_WEBHOOK_URL = process.env.REACT_APP_N8N_WEBHOOK_URL;
 // const N8N_WEBHOOK_URL = 'https://a7c5-2001-d08-2295-4516-38f6-6b18-1829-7073.ngrok-free.app/webhook-test/d6ede216-4344-48f9-9891-13905e450710';
 const sessionId = uuid();
 
